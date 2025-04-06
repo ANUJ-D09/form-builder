@@ -1,105 +1,101 @@
-/* General Reset */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-
-body {
-    background-color: #6256CA;
-    padding: 20px;
-}
-
-h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #FFF100;
-}
-
-
-/* Master Container */
-
-#master {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-
-/* Section Styling */
-
-#master>div {
-    flex: 1 1 100%;
-    /* default: take full width */
-    background-color: #FFAF00;
-    padding: 15px;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-
-/* Section Headers */
-
-#master h4 {
-    text-align: left;
-    margin-bottom: 5px;
-    color: #03346E;
-}
-
-#master h3 {
-    text-align: center;
-    margin-bottom: 10px;
-    color: #03346E;
-    border-bottom: 2px solid #eee;
-    padding-bottom: 8px;
-}
-
-
-/* Responsive Layout */
-
-@media (min-width: 768px) {
-    #master>div {
-        flex: 1 1 48%;
+    /* General Reset */
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
     }
-}
-
-@media (min-width: 1024px) {
-    #master>div {
-        flex: 1 1 23%;
+    
+    body {
+        background-color: #6256CA;
+        padding: 20px;
     }
-}
-
-input {
-    width: 100%;
-    padding: 12px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 16px;
-    border: 2px solid #ddd;
-    border-radius: 6px;
-}
-
-button {
-    width: 100%;
-    padding: 12px;
-    background-color: #B4E380;
-    color: #333;
-    font-size: 16px;
-    font-weight: bold;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
-}
-
-#input {
-    width: 100%;
-    padding: 12px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 16px;
-    border: 2px solid #ddd;
-    border-radius: 6px;
-}
+    
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #FFF100;
+    }
+    /* Master Container */
+    
+    #master {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    /* Section Styling */
+    
+    #master>div {
+        flex: 1 1 100%;
+        /* default: take full width */
+        background-color: #FFAF00;
+        padding: 15px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    /* Section Headers */
+    
+    #master h4 {
+        text-align: left;
+        margin-bottom: 5px;
+        color: #03346E;
+    }
+    
+    #master h3 {
+        text-align: center;
+        margin-bottom: 10px;
+        color: #03346E;
+        border-bottom: 2px solid #eee;
+        padding-bottom: 8px;
+    }
+    /* Responsive Layout */
+    
+    @media (min-width: 768px) {
+        #master>div {
+            flex: 1 1 48%;
+        }
+    }
+    
+    @media (min-width: 1024px) {
+        #master>div {
+            flex: 1 1 23%;
+        }
+    }
+    
+    input {
+        width: 100%;
+        padding: 12px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        border: 2px solid #ddd;
+        border-radius: 6px;
+    }
+    
+    button {
+        width: 100%;
+        padding: 12px;
+        background-color: #B4E380;
+        color: #333;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+    }
+    
+    button:hover {
+        background-color: #06D001;
+    }
+    
+    #input {
+        width: 100%;
+        padding: 12px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        border: 2px solid #ddd;
+        border-radius: 6px;
+    }
